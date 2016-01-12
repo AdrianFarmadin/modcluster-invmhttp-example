@@ -1,0 +1,16 @@
+# Copy this with name '.' + instanzname + 'rc' (e.g. .mybossrc for myboss) to $HOME
+# JBOSS_RELEASE_NAME is used to determine the jboss-version (jboss7/wildfly,...)
+JBOSS_RELEASE_NAME=jboss-eap-6.2.1
+JBOSS_HOME=$HOME/jboss-eap-6
+export JBossPackage=$HOME/Downloads/$JBOSS_RELEASE_NAME.zip
+
+# For Cluster
+# BIND_ADDRSS=192.168.40.129
+
+# JBOSS_OPTS="-Djboss.bind.address=$BIND_ADDRSS -Djboss.bind.address.management=$BIND_ADDRSS"
+
+# PORT_OFFSET=100
+
+# Environment-dependent configuration
+# export ENV_CONFIG=../environments/esiegl
+
